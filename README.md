@@ -18,9 +18,13 @@ Instead of simply cleaning a dataset in Python or writing a few SQL queries, I w
 I chose customer churn because it gives a good opportunity to look at different parts of a customer's journey — how long they stay, what services they use, what type of contract they have, how much they pay, and whether they eventually leave.
 This also gave me the opportunity to think about the analysis from a business perspective rather than only focusing on the technical side.
 
-Business Problem
+---
+
+# Business Problem
+
 For a telecom company, losing customers can directly affect recurring revenue. But knowing the number of customers who churned is only the starting point.
 The more useful questions are:
+
 Which types of customers are leaving?
 Does contract type have any relationship with churn?
 Does customer tenure differ between churned and retained customers?
@@ -28,7 +32,9 @@ Are certain services associated with different churn patterns?
 How do monthly charges differ across customer groups?
 Are there particular customer segments that deserve more attention?
 I used these questions to guide the analysis instead of creating visualizations without a specific purpose.
-What I Did
+
+---
+# What I Did
 Data Preparation with Python
 I started by loading the raw dataset into Python using Pandas.
 Before doing any analysis, I went through the dataset to understand its structure and check whether the data was actually ready to use.
@@ -43,7 +49,13 @@ Creating fact and dimension tables
 The main notebook is:
 python/notebooks/Telecom-customer-churn.ipynb
 I also used Python to connect the processed data to SQL Server and load the required tables.
-Data Modeling
+
+ ---
+
+ 
+# Data Modeling
+
+
 After cleaning the data, I separated the information into fact and dimension tables using a basic star-schema structure.
 I did this because keeping everything in one large table makes the data harder to manage as the analysis becomes more complex.
 The structured model also makes it easier to perform analysis in SQL and connect the data to Tableau.
