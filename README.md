@@ -161,11 +161,13 @@ These insights can help a telecom company identify customer segments that may re
 
 Conclusion
 
-This project gave me practical experience in working with a complete data analytics pipeline.
+The analysis shows that customer churn is influenced by several customer and service-related factors rather than one single factor.
 
-I used Python for data cleaning and transformation, SQL Server for storing and analyzing the data, and Tableau for visualization and reporting.
+Customers with month-to-month contracts showed higher churn compared with customers on longer-term contracts. Churn also varied across internet service types, customer tenure, and payment methods. This suggests that customers with shorter commitments and certain service profiles may require more attention from the company.
 
-The main learning from this project was not just using individual tools, but understanding how they work together in a real-world data analytics workflow.
+Overall, the analysis can help the telecom company identify customer segments with higher churn and focus its retention efforts on those groups. The dashboard makes these patterns easier to monitor and compare, which can support better customer retention decisions.
+
+
 
 ---
 
